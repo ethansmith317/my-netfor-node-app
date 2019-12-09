@@ -110,7 +110,7 @@ function postCallback() {
       method: "PUT", 
       headers: {
           "Content-Type": "application/json",
-          "Authorization": "Basic " + new Buffer("info@clearobject.com:C1ear0bject").toString("base64")
+          // "Authorization": "Basic " + new Buffer("username:password").toString("base64")
       }
   };
 
